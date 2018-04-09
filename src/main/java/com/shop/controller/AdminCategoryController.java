@@ -27,7 +27,7 @@ public class AdminCategoryController {
         }
     }
 
-    //修改一级分类
+    //修改一级分类 试试合并   变了吗
     @RequestMapping(value = "/updateCategory")
     public ModelAndView updateCategory(@ModelAttribute("category") Category category) {
         adminCategoryService.updateCategory(category);
